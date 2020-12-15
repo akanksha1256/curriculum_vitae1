@@ -1,0 +1,153 @@
+a{
+  color: #27496d;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 0 20px;
+}
+a:hover{
+  color: #dae1e7;
+}
+
+body{
+  margin: 0; /* for making body side margins from 8px(default) to zero*/
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  color: #40515e;
+}
+
+.bottom-container{
+  background-color: #00909e;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.cloud1{
+  position: absolute;
+  right: 180px;
+  top: 50px;
+  height: 100px;
+  width: 300px;
+}
+.cloud2{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  height: 120px;
+  width: 360px;
+}
+
+.contactme{
+  width: 40%;
+  margin: 20px auto 50px;
+}
+
+.copyright{
+  color: #dae1e7;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  margin: 0;/* the top margin of h1 causes the gap at the top*/
+  font-family: 'Sacramento', cursive;
+  color: #27496d;
+  font-size: 5rem;
+  }
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #142850;
+  font-size: 2.3rem;
+  margin-bottom: 0;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #27496d;
+  margin-bottom: 20px;
+}
+.para1{
+  margin-bottom: 80px;
+  margin-top: 0;
+  font-weight: 200;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.profile-img{
+  height: 200px;
+  width: 180px;
+}
+.middle-container{
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.mountain{
+  width: 1200px;
+  height: 350px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 30px auto 50px auto;
+  padding-top: 20px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+
+.top-container{
+  background-color: #e4f9f5;
+  padding-top: 70px;
+  margin-bottom: 0;
+  position: relative;
+}
+.icon{
+  height: 25%;
+  width: 25%;
+}
+hr{
+  border-top-style: dotted;
+  border-width: 5px 0 0;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-color: #00909e;
+
+}
+
+.web{
+  float: left;
+  margin-right: 30px;
+}
+
+.photography{
+  float: right;
+  margin-left: 30px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 26px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.skills{
+  margin-bottom: 50px;
+}
